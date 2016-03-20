@@ -8,7 +8,7 @@
   }
 
   // Then register Service Worker
-  navigator.serviceWorker.register('/sw.js')
+  navigator.serviceWorker.register('./sw.js')
     .then(function(reg) {
       console.log('registration successful :)');
     })
